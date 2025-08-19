@@ -14,3 +14,15 @@ print(name)  # Dave
 
 # This will raise an error
 # print(color)
+
+
+def another_greeting():
+    color = "green"
+
+    def inner_greeting():
+        print("Hello, " + name + ". Your favorite color is " + color + ".")
+
+    inner_greeting()
+
+
+another_greeting()

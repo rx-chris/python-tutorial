@@ -1,3 +1,6 @@
+from functools import reduce
+
+
 def squared(x): return x ** 2
 
 
